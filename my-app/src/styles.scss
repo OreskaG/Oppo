@@ -1,8 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
+html, body { height: 100%; overflow:  hidden; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 body {
   background-color: beige;
+}
+
+.mat-raised-button.mat-accent.mat-button-disabled {
+  background-color: grey;
+  transition: 0.5s;
+}
+
+.mat-raised-button.mat-accent.mat-button-disabled {
+  color: white;
+  transition: 0.5s;
 }

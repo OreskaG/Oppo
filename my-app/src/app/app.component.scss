@@ -8,11 +8,15 @@
 .btn {
   width: 100px;
   margin: 20px auto 20px;
+  background-color: aquamarine;
+  color: black;
+  transition: 0.5s;
 }
 
 .img {
   width: 60%;
   margin: 0 auto;
+  max-height: 80vh;
 }
 
 @media (max-width: 500px) {
